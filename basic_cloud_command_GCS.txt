@@ -1,0 +1,47 @@
+# สร้าง bucket
+gsutil mb gs://[BUCKET]
+
+
+# ลิสต์ files ใน bucket
+gsutil ls gs://[BUCKET]
+
+
+# ดูว่า bucket ขนาดเท่าไร (du: disk usage)
+gsutil du -sh gs://[BUCKET]
+
+
+# Copy (upload) ไฟล์ไปยัง bucket
+gsutil cp [File] gs://[BUCKET]
+
+# การ upload ไม่จำเป็นต้องสร้าง directory ล่วงหน้า
+gsutil cp [File] gs://[BUCKET]/path/to/file
+
+# การ copy (upload) ทั้ง directory (-r)
+gsutil cp -r [Folder] gs://[BUCKET]
+
+# การใช้ enable multiprocessing (-m) ช่วยให้ copy ไฟล์ได้เร็วขึ้น
+gsutil -m cp -r [Folder] gs://[BUCKET]
+
+# การ copy (download) ไฟล์จาก bucket
+gsutil cp gs://[BUCKET]/path/to/file [File]
+
+# การ copy (download) directory มายัง current directory
+gsutil -m cp -r gs://[BUCKET]/path .
+
+# copy (download) เฉพาะไฟล์ txt  มายัง current directory
+gsutil -m cp gs://[BUCKET]/*.txt . 
+
+
+# Move หรือ rename ไฟล์
+gsutil mv gs://[BUCKET]/path/to/old_name gs://[BUCKET]/path/to/new_name
+
+
+# Remove ลบไฟล์ file หรือ directory 
+# remove การลบไฟล์
+gsutil rm gs://[BUCKET]/path/to/file
+
+# remove การลบ directory
+gsutil rm -r gs://[BUCKET]/path/to/directory
+
+
+# Doc: https://cloud.google.com/storage/docs/how-to
