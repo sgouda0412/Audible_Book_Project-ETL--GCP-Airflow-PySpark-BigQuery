@@ -7,7 +7,7 @@ mysql databases. And Join it together!!! We also need to get the API for convert
 
 We also use the Google Cloud Platform (GCP), the GCP services following:  
   - Google Cloud Storage (GCS) as our Data Lake 
-  - Google Composer - to use "Apache Airflow" running Pipeline Orhestration 
+  - Google Cloud Composer - to use "Apache Airflow" running Pipeline Orhestration 
   - Google Bigquery as our Data Warehouse 
 
 
