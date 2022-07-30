@@ -19,7 +19,7 @@ This task is about how to ingest data from
 
 ## Workshop 2_Using pySpark 
    - To explore how to do Basic EDA (Exploratory Data Analysis) and use PySpark to data cleansing 
-  
+  (My note: https://gist.github.com/BestChanyanart/1f518a7dd857d017801acf6c9355eab5)
   
 ## Workshop 3_Working on Google Cloud Storage (GCS) 
    - To explore how to create Upload and Download function between local and GCS
