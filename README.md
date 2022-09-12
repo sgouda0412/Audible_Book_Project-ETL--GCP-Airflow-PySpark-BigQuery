@@ -19,11 +19,11 @@ This task is about how to ingest data from
 
 ## Workshop 2_Using pySpark 
    - To explore how to do Basic EDA (Exploratory Data Analysis) and use PySpark to data cleansing 
-  (My CheatSheet note: https://gist.github.com/BestChanyanart/1f518a7dd857d017801acf6c9355eab5)
+  [My CheatSheet note](https://gist.github.com/BestChanyanart/1f518a7dd857d017801acf6c9355eab5)
   
 ## Workshop 3_Working on Google Cloud Storage (GCS) 
    - To explore how to create Upload and Download function between local and GCS
-    (Manual: https://cloud.google.com/storage/docs/uploading-objects) 
+    [GCS Manual](https://cloud.google.com/storage/docs/uploading-objects) 
 
 
 ## Workshop 4_Working on Google Cloud Composer and Apache Airflow 
